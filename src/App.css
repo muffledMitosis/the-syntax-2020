@@ -1,3 +1,11 @@
+.baseGradient {
+    background: rgb(239,162,133);
+    background: -moz-linear-gradient(65deg, rgba(239,162,133,1) 0%, rgba(234,178,181,1) 30%, rgba(220,190,221,1) 74%, rgba(183,175,223,1) 100%);
+    background: -webkit-linear-gradient(65deg, rgba(239,162,133,1) 0%, rgba(234,178,181,1) 30%, rgba(220,190,221,1) 74%, rgba(183,175,223,1) 100%);
+    background: linear-gradient(65deg, rgba(239,162,133,1) 0%, rgba(234,178,181,1) 30%, rgba(220,190,221,1) 74%, rgba(183,175,223,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#efa285",endColorstr="#b7afdf",GradientType=1);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -20,4 +28,16 @@ body {
     width: 20vw;
     top: 25vh;
     left: 10vw;
+}
+
+.rulesAndRegulations {
+    width: 100vw;
+    height: 30rem;
+    /* background-color: rebeccapurple; */
+}
+
+@media (max-width: 1000px) {
+    .rectLogo {
+        top: 10vh;
+    }
 }

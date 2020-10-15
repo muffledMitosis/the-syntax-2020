@@ -7,11 +7,17 @@ import rectLogo from './assets/rect-logo.png';
 
 function App() {
   return (
-    <div className="mainContainer">
-      <img className="rectLogo" src={rectLogo} />
-      <img className="wordLogo" src={wordLogo} />
-      <img className="mainBack" src={mainBack} />
-      
+    <div>
+      <div className="mainContainer">
+        <img className="rectLogo" src={rectLogo} />
+        <img className="wordLogo" src={wordLogo} />
+        <img className="mainBack" src={mainBack} />
+        
+      </div>
+
+      <div className="rulesAndRegulations baseGradient">
+
+      </div>
     </div>
   );
 }
