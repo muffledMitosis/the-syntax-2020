@@ -44,7 +44,7 @@ class CountDown extends React.Component {
 
     this.setState({
       timeStr: days + "D " + hours + "H "
-      + minutes + "M " + seconds + "S "
+        + minutes + "M " + seconds + "S "
     });
   }
 
@@ -56,6 +56,21 @@ class CountDown extends React.Component {
     );
   }
 };
+
+const contentCreation = [
+  "Article content must be at most 2 A4 sheets long",
+  "Articles must include sources/links for both images and content created ( Websites, chat forums, Wikipedia etc)",
+  "Your creations must be relevant to the theme allocated for the particular week you are participating in",
+  "Article Content must be submitted within the 7 days allocated for each theme apon its announcement on the website",
+  "Any acts of plagiarism will result in the participants to be banned from all events conducted under the Royal College Computer Society"
+];
+
+const submission = [
+  "Writers may compete individually (SOLO) or in teams of two (DUO)",
+  "When submitting creations the writer or writers have the choice of including a nickname to be identified by along with their actual identification",
+  "All submissions regardless of school will be accepted upon the appropriate identification details being submitted along with the article",
+  "When submitting kindly submit your articles and source materials in separate documents as you will see when submitting"
+];
 
 function App() {
 
@@ -69,20 +84,13 @@ function App() {
       </div>
 
       <div className="rulesAndRegulations baseGradient">
-        {/* <form onSubmit={handleSubmit(onSubmit)}>
-          <div><input name="fullName"  ref={register} /> <label for="fullName">Full Name</label></div>
-          <div><input name="email" type="email" ref={register} /><label for="email">Email Address</label></div>
-          <div><input name="admission"  ref={register} /> <label for="admission">Admission Number</label></div>
-          <div><input name="team"  ref={register} /> <label for="team">Team Name (if)</label></div>
-          <div><input name="exampleRequired" ref={register({ required: true })} /></div>
-
-          {errors.exampleRequired && <span>This field is required</span>}
-          
-          <div><input type="submit" /></div>
-        </form> */}
-
-        <div><CountDown /></div>
+        <h2>Content Creation Guidelines</h2>
+        <ul>{contentCreation.map(item=><li>{item}</li>)}</ul>
+        <h2>Submission Guidelines</h2>
+        <ul>{submission.map(item=><li>{item}</li>)}</ul>
       </div>
+      
+      <div className="baseGradient"><CountDown /><h3>more...</h3></div>
     </div>
   );
 }
