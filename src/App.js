@@ -1,4 +1,5 @@
 import React from 'react';
+import { Parallax, Background } from 'react-parallax';
 import './App.css';
 
 class CountDown extends React.Component {
@@ -74,12 +75,18 @@ function App() {
 
   return (
     <div>
-      <div className="mainContainer">
-        <img className="rectLogo" src={rectLogo} />
-        <img className="wordLogo" src={wordLogo} />
-        <img className="mainBack" src={mainBack} />
+      <Parallax strength={200}>
+           <div className="testContainer">
+            <div className="mainContainer">
+              <img className="rectLogo" src={rectLogo} />
+              <img className="wordLogo" src={wordLogo} />
 
-      </div>
+            </div>
+           </div>
+           <Background className="custom-bg">
+            <img className="mainBack" src={mainBack} />
+           </Background>
+      </Parallax>
 
       <div className="rulesAndRegulations baseGradient">
         <h2>Content Creation Guidelines</h2>
