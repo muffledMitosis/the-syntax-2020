@@ -2,6 +2,10 @@ import React from 'react';
 import { Parallax, Background } from 'react-parallax';
 import './App.css';
 
+import analytics from './utils/firebase.js';
+
+analytics.logEvent('page_visit');
+
 class CountDown extends React.Component {
   constructor(props) {
     super(props);

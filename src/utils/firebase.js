@@ -14,4 +14,6 @@ var firebaseConfig = {
 };
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
-firebase.analytics();
+const analytics = firebase.analytics();
+
+export default analytics;
