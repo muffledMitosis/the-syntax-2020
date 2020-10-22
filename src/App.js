@@ -11,7 +11,7 @@ class CountDown extends React.Component {
   constructor(props) {
     super(props);
     this.state = { date: new Date(), timeStr: "Loading" };
-    this.countDownDate = new Date("Oct 22, 2020 15:37:25").getTime();
+    this.countDownDate = new Date("Oct 26, 2020 00:00:00").getTime();
   }
 
   componentDidMount() {
