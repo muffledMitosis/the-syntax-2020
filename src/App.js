@@ -75,13 +75,17 @@ function App() {
 
   return (
     <div>
-      <Parallax strength={300} bgImage={require('./assets/fullBackLogoAddon.jpg')}>
-          <div className="mainContainer">
-            <img className="rectLogo" src={rectLogo} />
-            <img className="wordLogo" src={wordLogo} />
-            {/* <img className="mainBack" src={mainBack} /> */}
+      <Parallax strength={200}>
+           <div className="testContainer">
+            <div className="mainContainer">
+              <img className="rectLogo" src={rectLogo} />
+              <img className="wordLogo" src={wordLogo} />
 
-          </div>
+            </div>
+           </div>
+           <Background className="custom-bg">
+            <img className="mainBack" src={mainBack} />
+           </Background>
       </Parallax>
 
       <div className="rulesAndRegulations baseGradient">

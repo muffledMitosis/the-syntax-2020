@@ -22,7 +22,7 @@ body {
 }
 
 .wordLogo {
-    position: relative;
+    position: absolute;
     width: 20vw;
     right: 0rem;
     margin-top: 3rem;
@@ -30,15 +30,15 @@ body {
 }
 
 .rectLogo {
-    position: relative;
+    position: absolute;
     width: 20vw;
-    top: 25vh;
+    top: 8vh;
     left: 10vw;
 }
 
 .mainContainer {
-    margin-bottom: -1rem;
     width: 100vw;
+    height: calc(100vw * 0.438);
 }
 
 .rulesAndRegulations {
@@ -96,7 +96,7 @@ h3 {
 
 @media (max-width: 1000px) {
     .rectLogo {
-        top: 10vh;
+        top: 5vh;
     }
     ul {
         margin-right: 2rem;
