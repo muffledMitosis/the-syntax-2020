@@ -22,7 +22,7 @@ body {
 }
 
 .wordLogo {
-    position: absolute;
+    position: relative;
     width: 20vw;
     right: 0rem;
     margin-top: 3rem;
@@ -30,7 +30,7 @@ body {
 }
 
 .rectLogo {
-    position: absolute;
+    position: relative;
     width: 20vw;
     top: 25vh;
     left: 10vw;
@@ -38,6 +38,7 @@ body {
 
 .mainContainer {
     margin-bottom: -1rem;
+    width: 100vw;
 }
 
 .rulesAndRegulations {
