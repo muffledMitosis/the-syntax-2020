@@ -68,7 +68,7 @@ const submission = [
 
 const rectLogo = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2Frect-logo.png?alt=media&token=584c78a9-889a-4859-95ed-1a052023f448";
 const wordLogo = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2Fword-logo-rccs.png?alt=media&token=e3e75061-f5f8-4d39-9552-1f29a2fce909";
-const mainBack = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2Fweb-back-full.jpg?alt=media&token=ac02ed6f-65b5-4f67-b4b8-b72cdf2b989e";
+const mainBack = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2FfullBackLogoAddon.jpg?alt=media&token=e9af64fd-1151-4e08-ab4f-88faeabecc3b";
 
 function App() {
 
