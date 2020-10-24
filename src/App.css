@@ -59,6 +59,14 @@ li {
     margin-bottom: 0.2rem;
 }
 
+p {
+    margin-left: 4rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0.2rem;
+    margin-right: 2rem;
+}
+
 h2 {
     text-align: center;
     color: white;
