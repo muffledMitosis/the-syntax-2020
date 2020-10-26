@@ -1,17 +1,31 @@
 import React from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 import { Parallax, Background } from 'react-parallax';
 import './App.css';
 
-import analytics from './utils/firebase.js';
+import {analytics, storage, db} from './utils/firebase.js';
 import Countdown from './utils/countdown.js';
 import * as consts from './utils/constStrings.js';
+
+import {SoloSubmission, DuoSubmission} from './submit.js';
 
 analytics.logEvent('page_visit');
 
 function App() {
 
   return (
-    <div>
+    <Router>
+        <Switch>
+          <Route path="/solo-submission"><SoloSubmission /></Route>
+          <Route path="/duo-submission"><DuoSubmission /></Route>
+          <Route path="/">
+          <div>
+      
       <Parallax strength={200}>
            <div className="testContainer">
             <div className="mainContainer">
@@ -34,8 +48,16 @@ function App() {
         <ul>{consts.submission.map(item=><li>{item}</li>)}</ul>
       </div>
       
-      <div className="baseGradient"><Countdown /><h3>more...</h3></div>
+      <div className="baseGradient">
+        <div className="subContainer">
+          <div>SOLO</div>
+          <div>DUO</div>
+        </div>
+      </div>
     </div>
+          </Route>
+        </Switch>
+      </Router>
   );
 }
 

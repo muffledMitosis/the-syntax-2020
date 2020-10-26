@@ -11,6 +11,7 @@
     "react-dom": "^16.13.1",
     "react-hook-form": "^6.9.2",
     "react-parallax": "^3.0.3",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3"
   },
   "scripts": {
