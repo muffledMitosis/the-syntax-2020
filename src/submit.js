@@ -15,7 +15,8 @@ function SoloSubmission() {
         console.log(`Name: ${fName}\nadNum: ${adNum}\nEmail: ${email}\nPhone: ${phoneNum}`);
         console.log(selectedFile);
 
-        let ref = storage.ref().child(`submissions/${fName}`);
+        let ref = storage.ref().child(`submissions/${fName}.${selectedFile.type.split("/")[1]}`);
+        console.log(selectedFile);
         let uploadTask = ref.put(selectedFile);
 
         event.preventDefault();
