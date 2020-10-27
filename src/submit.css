@@ -30,7 +30,7 @@ input[type='file'] {
 
 form>button {
     border: 0;
-    background: linear-gradient(to right, orange, yellow, green, cyan, blue, violet);
+    background: linear-gradient(to right, #1a2a6c, #b21f1f, #fdbb2d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Roboto';

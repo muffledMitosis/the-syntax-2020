@@ -38,8 +38,17 @@ function App() {
             <img className="mainBack" src={consts.mainBack} />
            </Background>
       </Parallax>
-
+      <div className="baseGradient themeDiv">
+        <h1>"Technology in the field of aesthetics"</h1>
+      </div>
       <div className="rulesAndRegulations baseGradient">
+        
+        <div className="baseGradient">
+        <div className="subContainer">
+          <img onClick={()=>window.location = "/solo-submission"} src={consts.soloLogo}/>
+          <img onClick={()=>window.location = "/duo-submission"} src={consts.duoLogo}/>
+        </div>
+      </div>
         <h2>What Is Syntax?</h2>
         {consts.intro.map(item=><p>{item}</p>)}
         <h2>Content Creation Guidelines</h2>
@@ -48,12 +57,7 @@ function App() {
         <ul>{consts.submission.map(item=><li>{item}</li>)}</ul>
       </div>
       
-      <div className="baseGradient">
-        <div className="subContainer">
-          <img onClick={()=>window.location = "/solo-submission"} src={consts.soloLogo}/>
-          <img onClick={()=>window.location = "/duo-submission"} src={consts.duoLogo}/>
-        </div>
-      </div>
+      
     </div>
           </Route>
         </Switch>
