@@ -21,4 +21,4 @@ const analytics = firebase.analytics();
 const storage = firebase.storage();
 const db = firebase.firestore();
 
-export { analytics, storage, db };
+export { analytics, storage, db, firebase };

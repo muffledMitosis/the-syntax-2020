@@ -1,3 +1,11 @@
 label input {
     display: block;
 }
+
+.d_none {
+    display: none;
+}
+
+.d_inline {
+    display: inline;
+}
