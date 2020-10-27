@@ -1,6 +1,8 @@
-const rectLogo = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2Frect-logo.png?alt=media&token=584c78a9-889a-4859-95ed-1a052023f448";
+const rectLogo = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2FdayOneRectLogo.png?alt=media&token=cea1b7d2-7d82-4054-af2a-b092ad23c05d";
 const wordLogo = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2Fword-logo-rccs.png?alt=media&token=e3e75061-f5f8-4d39-9552-1f29a2fce909";
-const mainBack = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2FfullBackLogoAddon.jpg?alt=media&token=e9af64fd-1151-4e08-ab4f-88faeabecc3b";
+const mainBack = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2FdayOneMainBack.png?alt=media&token=77d0d384-b121-43e1-95ab-2680d36ee47a";
+const soloLogo = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2FdayOneSolo.png?alt=media&token=e4f3033f-0901-4188-8017-50ea425258cb";
+const duoLogo = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2FdayOneDuo.png?alt=media&token=2e8bacf7-193e-4738-910d-c6b3b49bc4d3";
 
 const contentCreation = [
     "Article content must be at most 2 A4 sheets long",
@@ -26,4 +28,4 @@ const intro = [
     "Those who succeed with their creations will get the chance see their creations on the 'The Syntax' E-Magazine of 2020. Those who miss the ticket will be rewarded for their perseverance throughout the competition."
 ];
 
-export { rectLogo, wordLogo, mainBack, contentCreation, submission, intro }
+export { rectLogo, wordLogo, mainBack, contentCreation, submission, intro, soloLogo, duoLogo }

@@ -50,8 +50,8 @@ function App() {
       
       <div className="baseGradient">
         <div className="subContainer">
-          <div>SOLO</div>
-          <div>DUO</div>
+          <img onClick={()=>window.location = "/solo-submission"} src={consts.soloLogo}/>
+          <img onClick={()=>window.location = "/duo-submission"} src={consts.duoLogo}/>
         </div>
       </div>
     </div>
