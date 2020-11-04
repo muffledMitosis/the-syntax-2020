@@ -3,6 +3,8 @@ const wordLogo = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspo
 const mainBack = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2FdayOneMainBack.png?alt=media&token=77d0d384-b121-43e1-95ab-2680d36ee47a";
 const soloLogo = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2FdayOneSolo.png?alt=media&token=e4f3033f-0901-4188-8017-50ea425258cb";
 const duoLogo = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2FdayOneDuo.png?alt=media&token=2e8bacf7-193e-4738-910d-c6b3b49bc4d3";
+const week_two_main_back = "https://firebasestorage.googleapis.com/v0/b/syntax-2020.appspot.com/o/web-images%2Fweek_two_main_back.png?alt=media&token=1ebb8f8e-7143-402b-b0e1-9fbd5406e1e6";
+
 
 const contentCreation = [
     "Article content must be at most 2 A4 sheets long",
@@ -28,4 +30,4 @@ const intro = [
     "Those who succeed with their creations will get the chance see their creations on the 'The Syntax' E-Magazine of 2020. Those who miss the ticket will be rewarded for their perseverance throughout the competition."
 ];
 
-export { rectLogo, wordLogo, mainBack, contentCreation, submission, intro, soloLogo, duoLogo }
+export { rectLogo, wordLogo, mainBack, contentCreation, submission, intro, soloLogo, duoLogo, week_two_main_back }

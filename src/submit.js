@@ -21,7 +21,7 @@ function SoloSubmission() {
         console.log(`Name: ${fName}\nadNum: ${adNum}\nEmail: ${email}\nPhone: ${phoneNum}`);
         console.log(selectedFile);
 
-        let sotorageRef = storage.ref().child(`submissions/${fName}_${Date()}.${selectedFile.name.split(".")[1]}`);
+        let sotorageRef = storage.ref().child(`submissions/week_two/${fName}_${Date()}.${selectedFile.name.split(".")[1]}`);
         let dbRef = db.collection('submissions');
 
         setFormDisplay(prev=>prev="d_none");
@@ -84,7 +84,7 @@ function DuoSubmission() {
 
     const handleSubmit = event => {
 
-        let sotorageRef = storage.ref().child(`submissions/${auth1}_${Date()}.${selectedFile.name.split(".")[1]}`);
+        let sotorageRef = storage.ref().child(`submissions/week_two/${auth1}_${Date()}.${selectedFile.name.split(".")[1]}`);
         let dbRef = db.collection('submissions');
 
         setFormDisplay(prev=>prev="d_none");

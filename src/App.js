@@ -35,11 +35,11 @@ function App() {
             </div>
            </div>
            <Background className="custom-bg">
-            <img className="mainBack" src={consts.mainBack} />
+            <img className="mainBack" src={consts.week_two_main_back} />
            </Background>
       </Parallax>
       <div className="baseGradient themeDiv">
-        <h1>"Technology in the field of aesthetics"</h1>
+        <h1>"Technology developments in extraterrestrial exploration"</h1>
       </div>
       <div className="rulesAndRegulations baseGradient">
         

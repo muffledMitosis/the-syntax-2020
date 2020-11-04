@@ -50,6 +50,8 @@ body {
     width: 100vw;
     /* height: 30rem; */
     /* background-color: rebeccapurple; */
+    background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
+    background-blend-mode: screen;
 }
 
 ul {
@@ -79,11 +81,7 @@ p {
     align-content: center;
     justify-content: center;
     background: #141E30;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #243B55, #141E30);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #243B55, #141E30);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, #355c7d, #6c5b7b, #c06c84);
 }
 
 h1 {
@@ -98,9 +96,9 @@ h1 {
 }
 
 h2 {
-    background: linear-gradient(to right, #40e0d0, #ff8c00, #ff0080);
+    /* background: linear-gradient(to right, #417ceb, #2755d6, #0e349e);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent; */
     text-align: center;
     color: white;
     font-family: 'Roboto';
